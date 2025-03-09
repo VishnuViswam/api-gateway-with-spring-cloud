@@ -14,7 +14,7 @@
 ![Application Server](https://img.shields.io/badge/Netty-server-blue)
 
 ## About Project
-  TThis project is built using Spring Boot, incorporating Spring Cloud Gateway and WebFlux to develop a reactive API gateway. Acting as the central entry point, the gateway routes requests to different microservices while providing essential features like request routing, authentication, and rate limiting. WebFlux enables non-blocking, asynchronous request processing, ensuring both high performance and scalability. The integration of Spring Cloud components further supports seamless service discovery, configuration management, and fault tolerance, making this solution ideal for modern microservice architectures
+  This Gateway application is developed using Spring Boot with Spring Cloud and WebFlux. Acting as the central entry point, the gateway routes requests to different microservices while providing essential features like request routing, authentication, and rate limiting. WebFlux enables non-blocking, asynchronous request processing, ensuring both high performance and scalability. The integration of Spring Cloud components further supports seamless service discovery, configuration management, and fault tolerance, making this solution ideal for modern microservice architectures
 
 ## Used Libraries
 
