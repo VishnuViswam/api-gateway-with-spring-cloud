@@ -1,18 +1,17 @@
 
-<table style="width:100%">
-  <tr>
-    <td  style="text-align: center; vertical-align: middle;">
-    <img style="max-width: 250px; max-height: 150px; overflow: hidden;" src="img/spring-cloud-gw.jpg" alt="Spring boot api gateway">
-    <h1 align="center">Spring Boot Gateway with Spring Cloud and WebFlux</h3>
-    </td>
-    <td ></td>
-  </tr>
-</table>
+<p align="center">
+<br/><br/>
+  <img src="img/spring-cloud-gw.jpg" alt="Spring boot api gateway">
+  <h1 align="center">Spring Boot Gateway with Spring Cloud and WebFlux</h1>
+  <br/><br/>
+</p>
+
+
 
 ![Platform](https://img.shields.io/badge/Java-21%2B-red)
 ![Library](https://img.shields.io/badge/Spring%20Boot-3.3.9-brightgreen)
 ![Library](https://img.shields.io/badge/Spring%20Cloud-2023.0.4-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Application Server](https://img.shields.io/badge/Netty-server-blue)
 
 ## About Project
   TThis project is built using Spring Boot, incorporating Spring Cloud Gateway and WebFlux to develop a reactive API gateway. Acting as the central entry point, the gateway routes requests to different microservices while providing essential features like request routing, authentication, and rate limiting. WebFlux enables non-blocking, asynchronous request processing, ensuring both high performance and scalability. The integration of Spring Cloud components further supports seamless service discovery, configuration management, and fault tolerance, making this solution ideal for modern microservice architectures
