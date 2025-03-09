@@ -3,7 +3,7 @@
   <tr>
     <td  style="text-align: center; vertical-align: middle;">
     <img style="max-width: 250px; max-height: 150px; overflow: hidden;" src="img/spring-cloud-gw.jpg" alt="Spring boot api gateway">
-    <h1 align="center">Spring boot Gateway with Spring Cloud and WebFlux</h3>
+    <h1 align="center">Spring Boot Gateway with Spring Cloud and WebFlux</h3>
     </td>
     <td ></td>
   </tr>
