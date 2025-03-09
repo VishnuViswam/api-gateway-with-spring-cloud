@@ -19,10 +19,10 @@ import reactor.core.publisher.Mono;
 import java.net.URI;
 
 @Component
-@Order(Ordered.HIGHEST_PRECEDENCE)
-public class FilterConfig implements GlobalFilter {
+@Order(1)
+public class GlobalFilterConfig implements GlobalFilter {
 
-    private static final Logger logger = LoggerFactory.getLogger(FilterConfig.class);
+    private static final Logger logger = LoggerFactory.getLogger(GlobalFilterConfig.class);
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
