@@ -16,6 +16,6 @@ public class  GatewayService{
 
 	public static void main(String[] args) {
 		SpringApplication.run(GatewayService.class, args);
-		logger.info("Gateway Application is started");
+		logger.info("Gateway Application is started !!");
 	}
 }
